@@ -42,7 +42,6 @@ export default () => {
   return (
     <div>
       <h1>My Profile Page</h1>
-      <input type="file" />
       <img src={user.profile_picture} height="200px" width="200px"/>
       <div>
         {

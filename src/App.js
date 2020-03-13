@@ -7,6 +7,7 @@ import axios from 'axios';
 import Navbar from './container/Navbar';
 import Modal from './container/AuthModal';
 import MyProfilePage from './page/MyProfilePage';
+import ImageUploaderPage from './page/ImageUploaderPage';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path="/users/:id" component={UserProfilePage} />
       <Route exact path="/" component={HomePage} />
       <Route exact path="/profile" component= {MyProfilePage} />
+      <Route exact path="/upload" component= {ImageUploaderPage} />
     </div>
   );
 }
